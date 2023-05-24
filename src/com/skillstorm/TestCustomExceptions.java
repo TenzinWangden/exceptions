@@ -73,6 +73,7 @@ public class TestCustomExceptions {
 	}
 
 // Blake's code
+<<<<<<< HEAD
 	class BlakesException extends EricasException {
 	}
 
@@ -84,3 +85,12 @@ class BlakesException3 extends BlakesException{}
 
 	class TonysException extends Exception {}
 }
+=======
+
+
+// Tenzin's code
+class TenzinsException extends Exception {}
+class TenzinsException2 extends TenzinsException {}
+class TenzinsException3 extends TenzinsException {}
+
+>>>>>>> d0c59ccc8633eac1177cc4bc9364fde4bd3f46be
